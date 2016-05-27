@@ -1,0 +1,8 @@
+<launch>
+	<param name="use_sim_time" value="true" />
+	<node pkg="rosbag" type="play" name="player" output="screen"  args="/home/leonardo/Downloads/rgbd_dataset_freiburg1_360-2hz-with-pointclouds.bag" />
+
+	<node pkg="pcl_test" type="pcl_concatenate" name="pcl_concatenate" >
+	</node>
+
+</launch>
