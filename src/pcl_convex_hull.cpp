@@ -26,7 +26,7 @@
 
 
 //#include <pcl/conversions.h>
-//#include <pcl_conversions/pcl_conversions.h>
+#include <pcl_conversions/pcl_conversions.h>
 //#include <pcl/PCLPointCloud2.h>
 
 
